@@ -14,4 +14,4 @@ texte_crypte=$(echo "$texte" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
 
 # Afficher le resultat
 echo "Texte d'origine : $texte"
-echo "Texte chiffre/dechiffre : $texte_crypte"
+echo "Texte chiffre/dechiffré : $texte_crypte"

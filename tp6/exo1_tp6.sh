@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Seuils pour le CPU et la memoire (en pourcentage)
+# Seuils pour le CPU et la mémoire (en pourcentage)
 CPU_THRESHOLD=1  # Seuil d'utilisation CPU (%)
-MEM_THRESHOLD=1  # Seuil d'utilisation memoire (%)
+MEM_THRESHOLD=1  # Seuil d'utilisation mémoire (%)
 
 # Fichier temporaire contenant les informations des processus
 ps -eo pid,pcpu,pmem,comm | tail -n +2 > tmp
@@ -22,5 +22,3 @@ done < tmp
 
 # Supprimer le fichier temporaire
 rm -f tmp
-done until l>30:
-
